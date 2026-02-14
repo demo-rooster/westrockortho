@@ -4,69 +4,69 @@
       {
         "label": "primary",
         "color": {
-          "red": 74,
-          "green": 122,
-          "blue": 155,
+          "red": 108,
+          "green": 175,
+          "blue": 80,
           "alpha": 1
         },
-        "hex": "#4a7a9b",
+        "hex": "#6caf50",
         "accessibility": {
-          "luminance": 0.17,
-          "luminancePercent": "17%",
-          "recommendedTextColor": "#ffffff",
-          "contrastRatio": 4.6,
-          "wcagRating": "AA"
+          "luminance": 0.34,
+          "luminancePercent": "34%",
+          "recommendedTextColor": "#000000",
+          "contrastRatio": 7.89,
+          "wcagRating": "AAA"
         }
       },
       {
         "label": "secondary",
         "color": {
-          "red": 61,
-          "green": 100,
-          "blue": 128,
+          "red": 81,
+          "green": 144,
+          "blue": 54,
           "alpha": 1
         },
-        "hex": "#3d6480",
+        "hex": "#519036",
         "accessibility": {
-          "luminance": 0.12,
-          "luminancePercent": "12%",
-          "recommendedTextColor": "#ffffff",
-          "contrastRatio": 5.9,
+          "luminance": 0.22,
+          "luminancePercent": "22%",
+          "recommendedTextColor": "#000000",
+          "contrastRatio": 5.39,
           "wcagRating": "AA"
         }
       },
       {
         "label": "accent",
         "color": {
-          "red": 34,
-          "green": 77,
-          "blue": 131,
+          "red": 0,
+          "green": 147,
+          "blue": 201,
           "alpha": 1
         },
-        "hex": "#224D83",
+        "hex": "#0093C9",
         "accessibility": {
-          "luminance": 0.07,
-          "luminancePercent": "7%",
-          "recommendedTextColor": "#ffffff",
-          "contrastRatio": 8.55,
-          "wcagRating": "AAA"
+          "luminance": 0.25,
+          "luminancePercent": "25%",
+          "recommendedTextColor": "#000000",
+          "contrastRatio": 6.02,
+          "wcagRating": "AA"
         }
       },
       {
         "label": "text",
         "color": {
-          "red": 34,
-          "green": 77,
-          "blue": 131,
+          "red": 0,
+          "green": 132,
+          "blue": 181,
           "alpha": 1
         },
-        "hex": "#224D83",
+        "hex": "#0084b5",
         "accessibility": {
-          "luminance": 0.07,
-          "luminancePercent": "7%",
-          "recommendedTextColor": "#ffffff",
-          "contrastRatio": 8.55,
-          "wcagRating": "AAA"
+          "luminance": 0.2,
+          "luminancePercent": "20%",
+          "recommendedTextColor": "#000000",
+          "contrastRatio": 4.97,
+          "wcagRating": "AA"
         }
       },
       {
@@ -123,17 +123,17 @@
       {
         "label": "topbar-dark",
         "color": {
-          "red": 61,
-          "green": 100,
-          "blue": 128,
+          "red": 81,
+          "green": 144,
+          "blue": 54,
           "alpha": 1
         },
-        "hex": "#3d6480",
+        "hex": "#519036",
         "accessibility": {
-          "luminance": 0.12,
-          "luminancePercent": "12%",
-          "recommendedTextColor": "#ffffff",
-          "contrastRatio": 5.9,
+          "luminance": 0.22,
+          "luminancePercent": "22%",
+          "recommendedTextColor": "#000000",
+          "contrastRatio": 5.39,
           "wcagRating": "AA"
         }
       }
@@ -141,76 +141,76 @@
     "typography": [
       {
         "label": "font",
-        "font": "'Verdana', helvetica, arial, sans-serif"
+        "font": "'Lufga', helvetica, arial, sans-serif"
       },
       {
         "label": "font-title",
-        "font": "'Montserrat', sans-serif"
+        "font": "'-apple-system', sans-serif"
       }
     ],
-    "logo_url": "https://www.taortho.com/assets/images/logo.png",
+    "logo_url": "https://westrockortho.com/static/67c557ac2b369c1e031d36f6ee066d50/4f8a5/westrock_logo_color-11.png",
     "logo_config": {
       "type": "url",
       "variant": "light",
-      "url": "https://www.taortho.com/assets/images/logo.png"
+      "url": "https://westrockortho.com/static/67c557ac2b369c1e031d36f6ee066d50/4f8a5/westrock_logo_color-11.png"
     },
     "logo_colors": {
       "colors": [
         {
-          "hex": "#3f9ff4",
-          "luminosity_percent": 32,
+          "hex": "#0093c9",
+          "luminosity_percent": 25,
+          "count": 17
+        },
+        {
+          "hex": "#0092c8",
+          "luminosity_percent": 25,
+          "count": 11
+        },
+        {
+          "hex": "#0093c8",
+          "luminosity_percent": 25,
+          "count": 8
+        },
+        {
+          "hex": "#0092c9",
+          "luminosity_percent": 25,
+          "count": 5
+        },
+        {
+          "hex": "#0096ce",
+          "luminosity_percent": 26,
+          "count": 5
+        },
+        {
+          "hex": "#0098cf",
+          "luminosity_percent": 27,
+          "count": 5
+        },
+        {
+          "hex": "#0095cc",
+          "luminosity_percent": 26,
+          "count": 4
+        },
+        {
+          "hex": "#0094cb",
+          "luminosity_percent": 25,
           "count": 3
         },
         {
-          "hex": "#3c9bf0",
-          "luminosity_percent": 31,
+          "hex": "#0099d2",
+          "luminosity_percent": 27,
           "count": 3
         },
         {
-          "hex": "#3c9bf1",
-          "luminosity_percent": 31,
+          "hex": "#0092c7",
+          "luminosity_percent": 25,
           "count": 3
-        },
-        {
-          "hex": "#3e9bf0",
-          "luminosity_percent": 31,
-          "count": 2
-        },
-        {
-          "hex": "#3d9df3",
-          "luminosity_percent": 32,
-          "count": 2
-        },
-        {
-          "hex": "#090707",
-          "luminosity_percent": 0,
-          "count": 2
-        },
-        {
-          "hex": "#070507",
-          "luminosity_percent": 0,
-          "count": 2
-        },
-        {
-          "hex": "#3da1f8",
-          "luminosity_percent": 33,
-          "count": 2
-        },
-        {
-          "hex": "#3d9ff2",
-          "luminosity_percent": 32,
-          "count": 1
-        },
-        {
-          "hex": "#3e9ef5",
-          "luminosity_percent": 32,
-          "count": 1
         }
       ],
-      "dominant_color": "#3f9ff4",
-      "avg_luminosity": 25.6,
+      "dominant_color": "#0093c9",
+      "avg_luminosity": 25.4,
       "is_light": false
     },
-    "favicon_url": "https://www.taortho.com/assets/images/icons/favicon.png"
+    "favicon_url": "https://westrockortho.com/favicon-32x32.png?v=ab29b6e11ec31ca1bf83b46a73383f0f"
   }
 }
