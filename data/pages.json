@@ -2,7 +2,7 @@
   "Home": [
     {
       "acf_fc_layout": "hero",
-      "title": "Tyska Alexander Orthodontics",
+      "title": "Westrock Orthodontics",
       "text": "",
       "button": {
         "type": "nuxt",
@@ -12,7 +12,7 @@
         "href": "",
         "path": "/contact",
         "hash": "#form",
-        "external": false,
+        "external": true,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
@@ -21,7 +21,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.webp",
-        "alt": "Smiling patients and orthodontic team at Tyska Alexander Orthodontics",
+        "alt": "Westrock Orthodontics team smiling in clinic",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -29,9 +29,7 @@
         "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Home Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -42,13 +40,10 @@
     },
     {
       "acf_fc_layout": "block_text_fh",
-      "title": "Welcome to Tyska Alexander Orthodontics",
+      "title": "Welcome to Westrock Orthodontics",
       "paragraphs": [
         {
-          "text": "Having a beautiful smile increases your self‑esteem and the confidence with which you move through the world. Dr. Edwin Tyska and Dr. Kristen Alexander excel at creating incredible smiles that are healthy and becoming. Our doctors consult together when designing treatment plans so you benefit from multiple experienced specialists and a customized approach."
-        },
-        {
-          "text": "We have an experienced, compassionate team who will be by your side throughout care. From the first consultation through retention, we focus on clear communication, modern techniques, and a comfortable experience for patients of all ages."
+          "text": "At Westrock Orthodontics, we know that a straighter smile can improve overall health and build confidence. Our team of orthodontic specialists is passionate about delivering results that boost self‑confidence and quality of life. With trusted experts and flexible payment options, we make orthodontics accessible for children, teens, and adults and focus on the patient experience from the first call to the final smile."
         }
       ],
       "component_options": {
@@ -62,14 +57,41 @@
     },
     {
       "acf_fc_layout": "multi_item_row",
-      "title": "Why Choose Us",
+      "title": "Why Choose Westrock",
       "items": [
         {
-          "title": "Collaborative Care",
+          "title": "Smile Changes Lives",
+          "icon": "shiny-tooth",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/788553581_Cosmetic_Dentistry.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/788553581_Cosmetic_Dentistry.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "We focus on life‑changing outcomes: straighter teeth that improve confidence and daily quality of life.",
+          "add_button": false,
+          "button": {
+            "button_type": "button",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Ortho for All Ages",
           "icon": "people",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.webp",
             "alt": "",
             "aria_hidden": false,
             "bgColor": "",
@@ -78,11 +100,9 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Experienced"
-            }
+            "image_selection_hints": null
           },
-          "text": "Treatment plans are developed with input from multiple experienced orthodontists, giving each patient the benefit of several specialists’ perspectives.",
+          "text": "Comprehensive care for children, teens, and adults with treatment plans tailored to each life stage.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -94,11 +114,11 @@
           }
         },
         {
-          "title": "Customized Plans",
-          "icon": "file-chart-tooth",
+          "title": "Insurance & Payments",
+          "icon": "files-tooth",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/312940249_Invisible_orthodontics_cosmetic_brackets_on_gradie.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/312940249_Invisible_orthodontics_cosmetic_brackets_on_gradie.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.webp",
             "alt": "",
             "aria_hidden": false,
             "bgColor": "",
@@ -107,11 +127,9 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Better Care"
-            }
+            "image_selection_hints": null
           },
-          "text": "Every treatment plan is tailored to the patient’s needs, focusing on long‑term health and results that fit your lifestyle.",
+          "text": "We accept most major insurance plans and offer flexible payment options to fit your budget.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -123,11 +141,11 @@
           }
         },
         {
-          "title": "Advanced Technology",
+          "title": "Fast Start & Tech",
           "icon": "laptop-tooth",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/136172958_Girl_taking_digital_3D_panoramic_dental_x-ray.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/136172958_Girl_taking_digital_3D_panoramic_dental_x-ray.webp",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/75923992_Verschiedene_Zahnspangen_retainer.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/75923992_Verschiedene_Zahnspangen_retainer.webp",
             "alt": "",
             "aria_hidden": false,
             "bgColor": "",
@@ -136,40 +154,9 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Modern Equipment"
-            }
+            "image_selection_hints": null
           },
-          "text": "We use digital scanning and modern tools, and the doctors pursue ongoing education to expand treatment options and improve comfort.",
-          "add_button": false,
-          "button": {
-            "button_type": "button",
-            "path": "",
-            "hash": "",
-            "href": "",
-            "label": "",
-            "aria": ""
-          }
-        },
-        {
-          "title": "Friendly Team",
-          "icon": "thumbs-up-tooth",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
-            "alt": "",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Experienced"
-            }
-          },
-          "text": "Our patient‑focused staff provides compassionate support and clear guidance through every step of treatment.",
+          "text": "Same‑day starts when available and modern digital orthodontics to speed treatment and improve comfort.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -209,29 +196,27 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Meet Dr. Tyska",
+      "title": "Meet Dr. Kyle S. Wendfeldt",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Edwin L. Tyska, DDS, enjoys orthodontics and serving patients in the Buffalo area. He emphasizes treating every patient as he would his own family and stays current through continuing education to deliver thoughtful, effective care."
+          "text": "Dr. Kyle S. Wendfeldt is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. Dr. Wendfeldt treats children, teens, and adults, providing custom treatment plans for every patient. From invisible aligners, clear braces, and traditional braces to retainers, Westrock Orthodontics has you covered."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
-        "webp": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
-        "alt": "Dr. Edwin Tyska, orthodontist at Tyska Alexander Orthodontics",
+        "src": "https://westrockortho.com/static/7622e11062ed5c5e8a3cef5fcfaf7a04/869a6/2560x2560-1.jpg",
+        "webp": "https://westrockortho.com/static/7622e11062ed5c5e8a3cef5fcfaf7a04/869a6/2560x2560-1.jpg",
+        "alt": "Dr. Kyle S. Wendfeldt",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Experienced"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -242,12 +227,12 @@
           "button": {
             "type": "nuxt",
             "style": "secondary",
-            "label": "Meet Dr. Tyska",
-            "aria_label": "Learn about Dr. Tyska",
+            "label": "Meet Dr. Wendfeldt",
+            "aria_label": "Learn about Dr. Kyle S. Wendfeldt",
             "href": "",
             "path": "/about",
-            "hash": "#meet-dr-tyska",
-            "external": false,
+            "hash": "#meet-the-doctor",
+            "external": true,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -277,29 +262,27 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Meet Dr. Alexander",
+      "title": "Meet Dr. Aisha Henry",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Kristen M. Alexander, DDS, is a Buffalo native who brings a commitment to continuing education and the latest treatment options. She focuses on clear communication and delivering strong, lasting results for patients of all ages."
+          "text": "Dr. Aisha Henry is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> treatment. She treats children, teens, and adults, creating custom treatment plans that may include invisible aligners, clear braces, traditional braces, retainers, and whitening."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
-        "webp": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
-        "alt": "Dr. Kristen Alexander, orthodontist at Tyska Alexander Orthodontics",
+        "src": "https://westrockortho.com/static/d7c400cd9340703de2fd3b1ce6ec7363/5458b/720x1080-5-1.png",
+        "webp": "https://westrockortho.com/static/d7c400cd9340703de2fd3b1ce6ec7363/5458b/720x1080-5-1.png",
+        "alt": "Dr. Aisha Henry",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Experienced"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -310,12 +293,672 @@
           "button": {
             "type": "nuxt",
             "style": "secondary",
-            "label": "Meet Dr. Alexander",
-            "aria_label": "Learn about Dr. Alexander",
+            "label": "Meet Dr. Henry",
+            "aria_label": "Learn about Dr. Aisha Henry",
             "href": "",
             "path": "/about",
-            "hash": "#meet-dr-tyska",
-            "external": false,
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Darren Hallums",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Darren Hallums is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. He attended Saint Louis University’s Center for Advanced Dental Education and was awarded a Masters of Science in Dentistry and Orthodontics and his Certificate to Practice Orthodontics. He passed the ABO exam in February of 2020 and is a Board Certified Orthodontist."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/68731fb1e4209db378fd6f7aa260cb33/1f55a/1500x1500-1.jpg",
+        "webp": "https://westrockortho.com/static/68731fb1e4209db378fd6f7aa260cb33/1f55a/1500x1500-1.jpg",
+        "alt": "Dr. Darren Hallums",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Hallums",
+            "aria_label": "Learn about Dr. Darren Hallums",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Katie G. Gibson",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Katie Guelos Gibson is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. She treats both children and adults and creates custom treatment plans that may include invisible aligners, clear braces, traditional braces, and retainers."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/79daae954aa7b188e9ac7b63216cbef7/2b3bd/2560x3840-2-1-scaled.jpg",
+        "webp": "https://westrockortho.com/static/79daae954aa7b188e9ac7b63216cbef7/2b3bd/2560x3840-2-1-scaled.jpg",
+        "alt": "Dr. Katie Guelos Gibson",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Gibson",
+            "aria_label": "Learn about Dr. Katie G. Gibson",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. AnnaKate Tatum",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. AnnaKate Tatum is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. Dr. Tatum is an Invisalign<sup>®</sup> Diamond Provider. She treats children, teens, and adults, planning treatments that consider facial esthetics for straight, balanced results."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/322287aa7997a35e29a8542f66199267/2b3bd/2560x3840-3-1-scaled.jpg",
+        "webp": "https://westrockortho.com/static/322287aa7997a35e29a8542f66199267/2b3bd/2560x3840-3-1-scaled.jpg",
+        "alt": "Dr. AnnaKate Tatum",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Tatum",
+            "aria_label": "Learn about Dr. AnnaKate Tatum",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Amy J. Schulte",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Amy J. Schulte is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. She treats children, teens, and adults and develops individualized plans using clear aligners, clear braces, traditional braces, and retainers."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/d5e7d9c601d8027645c3fea32d3e13cd/869a6/2560x2560-3-1.jpg",
+        "webp": "https://westrockortho.com/static/d5e7d9c601d8027645c3fea32d3e13cd/869a6/2560x2560-3-1.jpg",
+        "alt": "Dr. Amy J. Schulte",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Schulte",
+            "aria_label": "Learn about Dr. Amy J. Schulte",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Brittany Curry",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Brittany Curry is an orthodontic specialist who provides braces and Invisalign<sup>®</sup>. She treats children, teens, and adults and creates customized treatment plans to achieve each patient’s goals."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/e6609b591eab400230ca0bb9be2461b0/05000/1154x1732-1.png",
+        "webp": "https://westrockortho.com/static/e6609b591eab400230ca0bb9be2461b0/05000/1154x1732-1.png",
+        "alt": "Dr. Brittany Curry",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Curry",
+            "aria_label": "Learn about Dr. Brittany Curry",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Bryan C. Hiller",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Bryan C. Hiller is an orthodontic specialist who provides braces and Invisalign<sup>®</sup>. He treats children, teens, and adults and offers tailored treatment plans including clear aligners, clear braces, traditional braces, and retainers."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/c0f6fbac9ce3abdd5b7af2d8311d55e0/5458b/720x1080-6-1.png",
+        "webp": "https://westrockortho.com/static/c0f6fbac9ce3abdd5b7af2d8311d55e0/5458b/720x1080-6-1.png",
+        "alt": "Dr. Bryan C. Hiller",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Hiller",
+            "aria_label": "Learn about Dr. Bryan C. Hiller",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Rodney Lewis",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Rodney Lewis is an orthodontist in Fayetteville certified to provide braces and Invisalign<sup>®</sup>. He treats children, teens, and adults with individualized plans that may include clear aligners, clear braces, traditional braces, retainers, and whitening."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/25e41cdac26b865840f07697e8fad926/f8f3a/720x1080-2-1.png",
+        "webp": "https://westrockortho.com/static/25e41cdac26b865840f07697e8fad926/f8f3a/720x1080-2-1.png",
+        "alt": "Dr. Rodney Lewis",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Lewis",
+            "aria_label": "Learn about Dr. Rodney Lewis",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Kurt Hoffman",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Kurt Hoffman is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Missouri. He treats children, teens, and adults with custom plans including clear aligners, clear braces, traditional braces, retainers, and whitening."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/43d2aac0de2bdf4938b8de793c2603f5/5458b/Headshot_Henry-Hoffman.png",
+        "webp": "https://westrockortho.com/static/43d2aac0de2bdf4938b8de793c2603f5/5458b/Headshot_Henry-Hoffman.png",
+        "alt": "Dr. Kurt Hoffman",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Hoffman",
+            "aria_label": "Learn about Dr. Kurt Hoffman",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Mark L. Dake",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Mark L. Dake is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. He treats children, teens, and adults, offering individualized care from clear aligners to traditional braces and retainers."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/cec4808151e512f6dfe2c994797fe673/2b3bd/2560x3840-1-scaled.jpg",
+        "webp": "https://westrockortho.com/static/cec4808151e512f6dfe2c994797fe673/2b3bd/2560x3840-1-scaled.jpg",
+        "alt": "Dr. Mark L. Dake",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Dake",
+            "aria_label": "Learn about Dr. Mark L. Dake",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Samuel L. Harris",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Samuel L. Harris is an orthodontic specialist who provides braces and Invisalign<sup>®</sup>. He treats children, teens, and adults, offering personalized treatment plans spanning invisible aligners, clear braces, traditional braces, and retainers."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://westrockortho.com/static/de448627694f4cd8d9ad95e8d9f854b8/5458b/Headshot_Dr.-Harris-1.png",
+        "webp": "https://westrockortho.com/static/de448627694f4cd8d9ad95e8d9f854b8/5458b/Headshot_Dr.-Harris-1.png",
+        "alt": "Dr. Samuel L. Harris",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "nuxt",
+            "style": "secondary",
+            "label": "Meet Dr. Harris",
+            "aria_label": "Learn about Dr. Samuel L. Harris",
+            "href": "",
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -348,7 +991,7 @@
       "title": "Explore Our Treatments",
       "paragraphs": [
         {
-          "text": "We offer a full range of orthodontic services, from discreet clear aligners to fixed braces and retainers, plus digital scanning for a comfortable, accurate fit."
+          "text": "From clear aligners to traditional braces, we offer a range of orthodontic services to fit every age and lifestyle."
         }
       ],
       "button": {
@@ -359,7 +1002,7 @@
         "href": "",
         "path": "/treatments",
         "hash": "",
-        "external": false,
+        "external": true,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
@@ -371,17 +1014,15 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.webp",
-            "alt": "Patient holding Invisalign aligners",
+            "alt": "Patient at Westrock showing a smile, representing Invisalign treatment",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "",
+            "objectPosition": "center",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
+            "image_selection_hints": null
           },
           "title": "Invisalign<sup>®</sup>",
           "path": "/treatments",
@@ -389,63 +1030,57 @@
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
-            "alt": "Patient smiling with ceramic braces",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.webp",
+            "alt": "Patient receiving traditional metal braces",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "",
+            "objectPosition": "center",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
+            "image_selection_hints": null
           },
-          "title": "Clear & Metal Braces",
+          "title": "Metal Braces",
           "path": "/treatments",
-          "hash": "#braces"
+          "hash": "#metal-braces"
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.webp",
-            "alt": "Various orthodontic retainers displayed",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
+            "alt": "Patient with clear ceramic braces",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "",
+            "objectPosition": "center",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
+            "image_selection_hints": null
           },
-          "title": "Retainers",
+          "title": "Clear Braces",
           "path": "/treatments",
-          "hash": "#retainers"
+          "hash": "#clear-braces"
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.webp",
-            "alt": "Digital scanning equipment used for orthodontic impressions",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
+            "alt": "Same day braces start image",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "",
+            "objectPosition": "center",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Modern Equipment"
-            }
+            "image_selection_hints": null
           },
-          "title": "Digital Scanning",
+          "title": "Same Day Braces",
           "path": "/treatments",
-          "hash": "#advanced-technology"
+          "hash": "#same-day-braces"
         }
       ],
       "component_options": {
@@ -458,18 +1093,61 @@
       "reverse_row": false
     },
     {
+      "acf_fc_layout": "multi_item_testimonial",
+      "title": "Patient Testimonials",
+      "review_text": "Read More Reviews",
+      "links": [
+        {
+          "href": "",
+          "icon": "facebook",
+          "color": "primary"
+        }
+      ],
+      "testimonials": [
+        {
+          "author": "Jennifer J.",
+          "testimonial": "“I compared plans between a couple of orthos before choosing Westrock. I liked what they proposed to do better and they have more than one location so if I couldn't make an appointment for a day they were in my town, I could go to the neighboring town! There were more hours of availability between the two locations.”"
+        },
+        {
+          "author": "Mandy B.",
+          "testimonial": "“The doctors and staff at Westrock are so caring and friendly! Our family has, and will continue to, recommend Westrock Orthodontics to our friends and family!”"
+        },
+        {
+          "author": "Nathan P.",
+          "testimonial": "“The front desk lady was really kind and friendly. Made the whole experience super welcoming. I can’t wait to go back for my next appointment!”"
+        },
+        {
+          "author": "Diana M.",
+          "testimonial": "“My son’s experience at Westrock was amazing. He was so nervous in getting his braces. The staff and Dr. made him feel less nervous and discussed every step of the process. We are so happy to have chosen Westrock for his orthodontic care.”"
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "has_background": true,
+      "background": "bg2",
+      "linear_gradient": ""
+    },
+    {
       "acf_fc_layout": "multi_use_banner",
       "title": "Follow Us on Social Media",
       "content_block": "social_block",
       "text": "",
       "social_links": [
         {
-          "href": "https://search.google.com/local/reviews?placeid=ChIJZ1_LMkCe04kRl1Rvwwr8foM",
+          "href": "",
+          "icon": "instagram"
+        },
+        {
+          "href": "",
           "icon": "facebook"
         },
         {
-          "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-          "icon": "youtube"
+          "href": "",
+          "icon": "tiktok"
         }
       ],
       "email": "",
@@ -497,19 +1175,17 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/391155843_Group_of_young_people_using_and_looking_at_mobile.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/391155843_Group_of_young_people_using_and_looking_at_mobile.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135047751_Banner_of_young_couple_looking_to_each_other_and_u.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135047751_Banner_of_young_couple_looking_to_each_other_and_u.webp",
         "alt": "Parents with kids relaxing in front of home",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Community"
-        }
+        "image_selection_hints": null
       },
       "reversed": false,
       "centered": false,
@@ -527,7 +1203,7 @@
         "type": "nuxt",
         "style": "primary",
         "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "aria_label": "schedule consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -547,19 +1223,17 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
-        "alt": "Enjoying time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.webp",
+        "alt": "Enjoying Time Together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
+        "image_selection_hints": null
       },
       "reversed": false,
       "centered": true,
@@ -568,15 +1242,15 @@
     },
     {
       "seo": {
-        "page_title": "Home - Tyska Alexander Orthodontics",
-        "page_description": "Tyska Alexander Orthodontics provides personalized orthodontic care in Clarence and Tonawanda, NY, offering Invisalign®, braces, retainers, and digital scanning",
-        "page_keywords": "orthodontics, Invisalign, braces, retainers, digital scanning, Tyska Alexander, Clarence, Tonawanda",
+        "page_title": "Home - Westrock Orthodontics",
+        "page_description": "Westrock Orthodontics provides compassionate care across Arkansas and Missouri with Invisalign®, metal and clear braces, same‑day starts, and flexible payment.",
+        "page_keywords": "Westrock Orthodontics, orthodontics, Invisalign, braces, clear braces, same day braces, Arkansas, Missouri",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Home - Tyska Alexander Orthodontics",
-            "description": "Personalized orthodontic care in Clarence and Tonawanda, NY — Invisalign®, braces, retainers, and modern digital scanning.",
-            "image": "https://www.taortho.com/assets/images/slideshow/slide1.jpg"
+            "title": "Home - Westrock Orthodontics",
+            "description": "Westrock Orthodontics provides compassionate care across Arkansas and Missouri with Invisalign®, metal and clear braces, same‑day starts, and flexible payment.",
+            "image": "https://westrockortho.com/static/404441d43dd6fb1bf61863a065cd33e9/674c8/Mobile-Hero-Best-Orthodontist-in-Arkansas-Missouri-Tennesse.jpg"
           }
         }
       }
@@ -598,13 +1272,13 @@
         "external": false,
         "include_icon": false,
         "icon": "pencil",
-        "color": "primary"
+        "color": "black"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/239725802_group_of_professional_doctors.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/239725802_group_of_professional_doctors.webp",
-        "alt": "Team of orthodontic professionals smiling in the office lobby",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/149317615_Group_of_four_dentist_working_together_in_dental_o.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/149317615_Group_of_four_dentist_working_together_in_dental_o.webp",
+        "alt": "Patient showing a confident smile at Westrock Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -626,10 +1300,16 @@
       "title": "Our Mission",
       "paragraphs": [
         {
-          "text": "We recognize that all of our patients are unique and deserve to receive orthodontic care that reflects their individual needs. Our experienced and talented team is committed to working with you and your family to create a comfortable, stress‑free, and rewarding orthodontic experience every time you visit our practice. We are pleased to welcome you and your family, and we look forward to working with you."
+          "text": "We understand that everyone is different; that’s why we believe that every patient should have a unique treatment plan that works perfectly for them and their lifestyle."
         },
         {
-          "text": "Having a beautiful smile increases your self‑esteem and the confidence with which you move through the world. Our doctors consult together when they design a treatment plan for each patient, so you benefit from multiple specialists collaborating on one customized plan tailored to your needs. With individualized attention to detail, our goal is to make your mouth healthy and your smile beautiful."
+          "text": "We believe in using the latest technology and treatment methods to provide amazing outcomes for our patients."
+        },
+        {
+          "text": "Our team provides care that is accessible, comfortable, and tailored to each individual's needs. We offer braces and Invisalign<sup>®</sup> to help patients of all ages achieve healthy, confident smiles."
+        },
+        {
+          "text": "Through modern imaging, gentle techniques, and flexible scheduling, we focus on lasting relationships and results that fit each patient’s life."
         }
       ],
       "component_options": {
@@ -647,12 +1327,12 @@
     },
     {
       "acf_fc_layout": "tabs",
-      "title": "Meet Dr. Tyska",
+      "title": "Meet Dr. AnnaKate Tatum",
       "paragraphs": [],
       "image": {
-        "src": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
+        "src": "",
         "webp": "",
-        "alt": "Dr. Edwin L. Tyska",
+        "alt": "Dr. AnnaKate Tatum",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -666,58 +1346,16 @@
       "buttons": [],
       "tabs": [
         {
-          "header": "Professional",
+          "header": "About",
           "paragraphs": [
             {
-              "text": "Following his postgraduate studies, Dr. Edwin L. Tyska began his career in private practice and later became a partner. He brings long‑standing clinical experience and a collaborative approach to each treatment plan."
+              "text": "Dr. AnnaKate Tatum is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. She is an Invisalign<sup>®</sup> Diamond Provider and creates custom treatment plans for children, teens, and adults to deliver strong functional results and confident smiles."
             }
           ],
           "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
+            "src": "",
             "webp": "",
-            "alt": "Dr. Edwin L. Tyska in clinic",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Continuing Education",
-          "paragraphs": [
-            {
-              "text": "Dr. Tyska and the doctors in the practice regularly participate in continuing education programs to stay current with treatment methods, materials, and the latest technology."
-            }
-          ],
-          "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
-            "webp": "",
-            "alt": "Dr. Tyska at a continuing education event",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Outside the Office",
-          "paragraphs": [
-            {
-              "text": "A resident of East Amherst, Dr. Tyska is active with family life, coaches the Lou Gehrig Lasers travel girls’ softball league, enjoys golf, travel, and supporting the Buffalo Sabres."
-            }
-          ],
-          "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-edwin-tyska.jpg",
-            "webp": "",
-            "alt": "Dr. Tyska supporting local youth sports",
+            "alt": "Dr. AnnaKate Tatum",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -730,12 +1368,12 @@
         }
       ],
       "component_options": {
-        "hash": "meet-dr-tyska",
+        "hash": "meet-dr-annakate-tatum",
         "component_padding": "full",
         "component_margins": "half",
         "hide_component": false
       },
-      "has_background": true,
+      "has_background": false,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -748,12 +1386,12 @@
     },
     {
       "acf_fc_layout": "tabs",
-      "title": "Meet Dr. Alexander",
+      "title": "Meet Dr. Darren Hallums",
       "paragraphs": [],
       "image": {
-        "src": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
+        "src": "https://westrockortho.com/static/68731fb1e4209db378fd6f7aa260cb33/1f55a/1500x1500-1.jpg",
         "webp": "",
-        "alt": "Dr. Kristen M. Alexander",
+        "alt": "Dr. Darren Hallums",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -770,13 +1408,13 @@
           "header": "Professional",
           "paragraphs": [
             {
-              "text": "Dr. Kristen M. Alexander maintains an active clinical practice and brings a patient‑centered approach to treatment, focusing on clear communication and individualized care."
+              "text": "Dr. Darren Hallums is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. He treats children, teens, and adults, creating custom treatment plans for each patient."
             }
           ],
           "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
+            "src": "https://westrockortho.com/static/68731fb1e4209db378fd6f7aa260cb33/1f55a/1500x1500-1.jpg",
             "webp": "",
-            "alt": "Dr. Kristen M. Alexander in clinic",
+            "alt": "Dr. Darren Hallums",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -788,37 +1426,16 @@
           }
         },
         {
-          "header": "Affiliations & Education",
+          "header": "Education",
           "paragraphs": [
             {
-              "text": "Dr. Alexander regularly participates in continuing education and maintains professional affiliations with local and national dental and orthodontic organizations to ensure patients benefit from current best practices."
+              "text": "Dr. Hallums attended Saint Louis University’s Center for Advanced Dental Education where he earned a Master of Science in Dentistry and a Certificate in Orthodontics. He passed the ABO exam in February 2020 and is Board Certified."
             }
           ],
           "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
+            "src": "https://westrockortho.com/static/68731fb1e4209db378fd6f7aa260cb33/1f55a/1500x1500-1.jpg",
             "webp": "",
-            "alt": "Professional affiliations",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Personal",
-          "paragraphs": [
-            {
-              "text": "A Buffalo native, Dr. Alexander lives locally with her husband and children. She enjoys outdoor activities, travel, and cheering for local sports teams."
-            }
-          ],
-          "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/meet-dr-kristen-alexander.jpg",
-            "webp": "",
-            "alt": "Dr. Alexander with family",
+            "alt": "Dr. Darren Hallums",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -831,7 +1448,7 @@
         }
       ],
       "component_options": {
-        "hash": "meet-dr-alexander",
+        "hash": "meet-dr-darren-hallums",
         "component_padding": "full",
         "component_margins": "half",
         "hide_component": false
@@ -843,238 +1460,41 @@
       "reverse": true,
       "is_dynamic": false,
       "large_title": false,
-      "large_image": false,
+      "large_image": true,
       "title_alt": true,
       "preserve_image": true
     },
     {
-      "acf_fc_layout": "block_grid",
-      "title": "Meet the Team",
-      "items": [
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Rodney Lewis",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/25e41cdac26b865840f07697e8fad926/f8f3a/720x1080-2-1.png",
+        "webp": "",
+        "alt": "Dr. Rodney Lewis",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
         {
-          "name": "Jeanette",
-          "position": "Practice Administrator & Financial Coordinator",
-          "bio": "Practice Administrator and financial coordinator supporting patient care and billing.",
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Rodney Lewis is an orthodontist in Fayetteville, certified to provide braces and Invisalign<sup>®</sup> in Arkansas. He treats children, teens, and adults with individualized care and custom treatment plans."
+            }
+          ],
           "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Jeanette.jpg",
+            "src": "https://westrockortho.com/static/25e41cdac26b865840f07697e8fad926/f8f3a/720x1080-2-1.png",
             "webp": "",
-            "alt": "Jeanette, Practice Administrator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Stephanie",
-          "position": "Front Desk Coordinator",
-          "bio": "Front desk coordinator who greets patients and manages scheduling.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-119.jpg",
-            "webp": "",
-            "alt": "Stephanie, Front Desk Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Kathie",
-          "position": "Front Desk Coordinator",
-          "bio": "Front desk coordinator assisting patients and phone inquiries.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Kathie.jpg",
-            "webp": "",
-            "alt": "Kathie, Front Desk Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Kristen",
-          "position": "Treatment Coordinator",
-          "bio": "Treatment coordinator who helps patients understand options and financial arrangements.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-099.jpg",
-            "webp": "",
-            "alt": "Kristen, Treatment Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Heather",
-          "position": "Clinical Coordinator & Dental Assistant",
-          "bio": "Clinical coordinator and dental assistant supporting patient care.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Heather.jpg",
-            "webp": "",
-            "alt": "Heather, Clinical Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Torrie",
-          "position": "Dental Hygienist / Assistant",
-          "bio": "Dental hygienist and assistant providing clinical support.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Torrie.jpg",
-            "webp": "",
-            "alt": "Torrie, Dental Hygienist",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Alissa",
-          "position": "Dental Assistant",
-          "bio": "Dental assistant who works chairside to support treatments.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-088.jpg",
-            "webp": "",
-            "alt": "Alissa, Dental Assistant",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Rachel",
-          "position": "Financial Coordinator & Assistant Practice Administrator",
-          "bio": "Financial coordinator assisting with insurance and billing in Tonawanda.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-38.jpg",
-            "webp": "",
-            "alt": "Rachel, Financial Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Tammy",
-          "position": "Treatment Coordinator",
-          "bio": "Treatment coordinator supporting patient care at Tonawanda.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-44.jpg",
-            "webp": "",
-            "alt": "Tammy, Treatment Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Courtney",
-          "position": "Front Desk Coordinator",
-          "bio": "Front desk coordinator welcoming patients at Tonawanda.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-18.jpg",
-            "webp": "",
-            "alt": "Courtney, Front Desk Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Rose",
-          "position": "Clinical Coordinator & Dental Assistant",
-          "bio": "Clinical coordinator providing chairside assistance and patient support.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Rose%20V.jpg",
-            "webp": "",
-            "alt": "Rose, Clinical Coordinator",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Kim",
-          "position": "Dental Assistant",
-          "bio": "Dental assistant supporting clinical procedures.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/Kim.jpg",
-            "webp": "",
-            "alt": "Kim, Dental Assistant",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Paige",
-          "position": "Dental Assistant",
-          "bio": "Dental assistant who assists with patient care and treatment setup.",
-          "image": {
-            "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/TyskaAlexander-10.jpg",
-            "webp": "",
-            "alt": "Paige, Dental Assistant",
+            "alt": "Dr. Rodney Lewis",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1087,7 +1507,1258 @@
         }
       ],
       "component_options": {
-        "hash": "",
+        "hash": "meet-dr-rodney-lewis",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Henry Hoffman",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/43d2aac0de2bdf4938b8de793c2603f5/5458b/Headshot_Henry-Hoffman.png",
+        "webp": "",
+        "alt": "Dr. Henry Hoffman",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Henry Hoffman is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. He serves patients in Camdenton, MO and focuses on personalized treatment plans for children, teens, and adults."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/43d2aac0de2bdf4938b8de793c2603f5/5458b/Headshot_Henry-Hoffman.png",
+            "webp": "",
+            "alt": "Dr. Henry Hoffman",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-henry-hoffman",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Kurt Hoffman",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/35a32cbe3741fb2272266a08a08e237c/28c7e/Dr.-Kurt-Hoffman.jpg",
+        "webp": "",
+        "alt": "Dr. Kurt Hoffman",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Kurt Hoffman is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Missouri. He provides individualized care and comprehensive treatment planning for patients of all ages."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/35a32cbe3741fb2272266a08a08e237c/28c7e/Dr.-Kurt-Hoffman.jpg",
+            "webp": "",
+            "alt": "Dr. Kurt Hoffman",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-kurt-hoffman",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Kyle S. Wendfeldt",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/7622e11062ed5c5e8a3cef5fcfaf7a04/869a6/2560x2560-1.jpg",
+        "webp": "",
+        "alt": "Dr. Kyle S. Wendfeldt",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Kyle S. Wendfeldt is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. He treats children, teens, and adults and builds personalized treatment plans focused on facial esthetics and long-term function."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/7622e11062ed5c5e8a3cef5fcfaf7a04/869a6/2560x2560-1.jpg",
+            "webp": "",
+            "alt": "Dr. Kyle S. Wendfeldt",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-kyle-wendfeldt",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Mark L. Dake",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/cec4808151e512f6dfe2c994797fe673/2b3bd/2560x3840-1-scaled.jpg",
+        "webp": "",
+        "alt": "Dr. Mark L. Dake",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Mark L. Dake is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. He serves multiple Westrock locations and focuses on delivering tailored care for patients across ages."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/cec4808151e512f6dfe2c994797fe673/2b3bd/2560x3840-1-scaled.jpg",
+            "webp": "",
+            "alt": "Dr. Mark L. Dake",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-mark-dake",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Susan Sherrick",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/1f8d1051e882e6ccbe3274098d97533b/e4240/1280x1920-1.png",
+        "webp": "",
+        "alt": "Dr. Susan Sherrick",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Susan Sherrick is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. She treats patients across multiple offices and focuses on individualized care for lasting results."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/1f8d1051e882e6ccbe3274098d97533b/e4240/1280x1920-1.png",
+            "webp": "",
+            "alt": "Dr. Susan Sherrick",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-susan-sherrick",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Samuel L. Harris",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/de448627694f4cd8d9ad95e8d9f854b8/5458b/Headshot_Dr.-Harris-1.png",
+        "webp": "",
+        "alt": "Dr. Samuel L. Harris",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Samuel L. Harris is an orthodontic specialist who provides braces and Invisalign<sup>®</sup> in Arkansas. He treats children, teens, and adults and offers customized plans for each patient."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/de448627694f4cd8d9ad95e8d9f854b8/5458b/Headshot_Dr.-Harris-1.png",
+            "webp": "",
+            "alt": "Dr. Samuel L. Harris",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-samuel-harris",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Bryan C. Hiller",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/c0f6fbac9ce3abdd5b7af2d8311d55e0/5458b/720x1080-6-1.png",
+        "webp": "",
+        "alt": "Dr. Bryan C. Hiller",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Bryan C. Hiller is an orthodontic specialist who provides braces and Invisalign<sup>®</sup> in Arkansas. He treats all ages and develops individualized treatment plans to meet patients’ goals."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/c0f6fbac9ce3abdd5b7af2d8311d55e0/5458b/720x1080-6-1.png",
+            "webp": "",
+            "alt": "Dr. Bryan C. Hiller",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-bryan-hiller",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Kenneth Edwards",
+      "paragraphs": [],
+      "image": {
+        "src": "",
+        "webp": "",
+        "alt": "Dr. Kenneth Edwards",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Kenneth Edwards is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Raymore. He treats children, teens, and adults and focuses on personalized, effective care."
+            }
+          ],
+          "image": {
+            "src": "",
+            "webp": "",
+            "alt": "Dr. Kenneth Edwards",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-kenneth-edwards",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Nathan McGuire",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/c7894d42a6d4c75f46dd37e77a871e1f/05000/1154x1732-2-1.png",
+        "webp": "",
+        "alt": "Dr. Nathan McGuire",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Nathan McGuire is an orthodontist in Rock Hill and certified to provide braces and Invisalign<sup>®</sup> in Missouri. He treats children, teens, and adults and creates individualized treatment plans."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/c7894d42a6d4c75f46dd37e77a871e1f/05000/1154x1732-2-1.png",
+            "webp": "",
+            "alt": "Dr. Nathan McGuire",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-nathan-mcguire",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Douglas Rediger",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/a8b51677de251086694ccf37b0d95ba2/15dac/900x1350-3.jpg",
+        "webp": "",
+        "alt": "Dr. Douglas Rediger",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Douglas Rediger is an orthodontist in Rock Hill, certified to provide braces and Invisalign<sup>®</sup>. He focuses on personalized care and clear communication with patients and families."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/a8b51677de251086694ccf37b0d95ba2/15dac/900x1350-3.jpg",
+            "webp": "",
+            "alt": "Dr. Douglas Rediger",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-douglas-rediger",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Aisha Henry",
+      "paragraphs": [],
+      "image": {
+        "src": "",
+        "webp": "",
+        "alt": "Dr. Aisha Henry",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Aisha Henry is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup>. She works with patients of all ages, delivering customized treatment plans to meet individual goals."
+            }
+          ],
+          "image": {
+            "src": "",
+            "webp": "",
+            "alt": "Dr. Aisha Henry",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-aisha-henry",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Thomas E. Moore",
+      "paragraphs": [],
+      "image": {
+        "src": "",
+        "webp": "",
+        "alt": "Dr. Thomas E. Moore",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Thomas E. Moore is listed as an orthodontist at the Nevada, MO location. He provides orthodontic care and works with patients across ages in that clinic."
+            }
+          ],
+          "image": {
+            "src": "",
+            "webp": "",
+            "alt": "Dr. Thomas E. Moore",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-thomas-moore",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Nancy Ha",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/21dc2e200ee915c95ef5e5357f20716c/b58e4/Dr-Nancy-Ha.png",
+        "webp": "",
+        "alt": "Dr. Nancy Ha",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Nancy Ha is an orthodontist serving the Fort Smith area. She provides braces and Invisalign<sup>®</sup> treatment with personalized care for each patient she treats."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/21dc2e200ee915c95ef5e5357f20716c/b58e4/Dr-Nancy-Ha.png",
+            "webp": "",
+            "alt": "Dr. Nancy Ha",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-nancy-ha",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Katie G. Gibson",
+      "paragraphs": [],
+      "image": {
+        "src": "",
+        "webp": "",
+        "alt": "Dr. Katie G. Gibson",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Katie G. Gibson is an orthodontic specialist certified to provide braces and Invisalign<sup>®</sup> in Arkansas. She treats children, teens, and adults with a focus on customized, comfortable care."
+            }
+          ],
+          "image": {
+            "src": "",
+            "webp": "",
+            "alt": "Dr. Katie G. Gibson",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-katie-g-gibson",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Brittany Curry",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/e6609b591eab400230ca0bb9be2461b0/05000/1154x1732-1.png",
+        "webp": "",
+        "alt": "Dr. Brittany Curry",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Brittany Curry is an orthodontist serving Hot Springs, certified to provide braces and Invisalign<sup>®</sup>. She focuses on comfortable, patient-centered care for all ages."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/e6609b591eab400230ca0bb9be2461b0/05000/1154x1732-1.png",
+            "webp": "",
+            "alt": "Dr. Brittany Curry",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-brittany-curry",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Jennifer Franklin",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/14019249da258e45110a0a7f42a56809/867c5/Headshot_Jennifer-Franklin.jpg",
+        "webp": "",
+        "alt": "Dr. Jennifer Franklin",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Jennifer Franklin is an orthodontist at the Cordova location. She provides braces and Invisalign<sup>®</sup> and focuses on care that fits each patient's lifestyle and goals."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/14019249da258e45110a0a7f42a56809/867c5/Headshot_Jennifer-Franklin.jpg",
+            "webp": "",
+            "alt": "Dr. Jennifer Franklin",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-jennifer-franklin",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Hassan Chihab",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/3b01bb6a2e0f20e81e8139f6015fec46/74954/Hissan-Chihab.png",
+        "webp": "",
+        "alt": "Dr. Hassan Chihab",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Hassan Chihab is an orthodontist serving Jackson, MO. He provides braces and Invisalign<sup>®</sup> and focuses on individualized treatment and clear patient communication."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/3b01bb6a2e0f20e81e8139f6015fec46/74954/Hissan-Chihab.png",
+            "webp": "",
+            "alt": "Dr. Hassan Chihab",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-hassan-chihab",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Stacie D. Fenderson",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/8e590c115b03619d3d9aa58a2491ad2b/867c5/Headshot_Stacie-Fenderson-Headshot.jpg",
+        "webp": "",
+        "alt": "Dr. Stacie D. Fenderson",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Stacie D. Fenderson is an orthodontist practicing at multiple Westrock locations. She provides braces and Invisalign<sup>®</sup> with a focus on comfortable, personalized care."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/8e590c115b03619d3d9aa58a2491ad2b/867c5/Headshot_Stacie-Fenderson-Headshot.jpg",
+            "webp": "",
+            "alt": "Dr. Stacie D. Fenderson",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-stacie-fenderson",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Courtney Ethington",
+      "paragraphs": [],
+      "image": {
+        "src": "https://westrockortho.com/static/70d217705317c45f516793739ca9a134/2603a/596x934.png",
+        "webp": "",
+        "alt": "Dr. Courtney Ethington",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "About",
+          "paragraphs": [
+            {
+              "text": "Dr. Courtney Ethington is an orthodontist serving Rolla, MO. She provides braces and Invisalign<sup>®</sup> and aims to deliver care that fits each patient’s needs and lifestyle."
+            }
+          ],
+          "image": {
+            "src": "https://westrockortho.com/static/70d217705317c45f516793739ca9a134/2603a/596x934.png",
+            "webp": "",
+            "alt": "Dr. Courtney Ethington",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-dr-courtney-ethington",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": true,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": true,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "block_grid",
+      "title": "Meet the Team",
+      "items": [
+        {
+          "name": "Dr. Rodney Lewis",
+          "position": "Orthodontist",
+          "bio": "Orthodontist serving Fayetteville, AR. Provides braces and Invisalign<sup>®</sup> with personalized treatment plans.",
+          "image": {
+            "src": "https://westrockortho.com/static/25e41cdac26b865840f07697e8fad926/f8f3a/720x1080-2-1.png",
+            "webp": "",
+            "alt": "Dr. Rodney Lewis",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Dr. Stacie D. Fenderson",
+          "position": "Orthodontist",
+          "bio": "Orthodontist practicing at multiple locations, focused on comfortable, patient-centered care.",
+          "image": {
+            "src": "https://westrockortho.com/static/8e590c115b03619d3d9aa58a2491ad2b/867c5/Headshot_Stacie-Fenderson-Headshot.jpg",
+            "webp": "",
+            "alt": "Dr. Stacie D. Fenderson",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Dr. Courtney Ethington",
+          "position": "Orthodontist",
+          "bio": "Orthodontist in Rolla, MO offering braces and Invisalign<sup>®</sup> with individual treatment planning.",
+          "image": {
+            "src": "https://westrockortho.com/static/70d217705317c45f516793739ca9a134/2603a/596x934.png",
+            "webp": "",
+            "alt": "Dr. Courtney Ethington",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Dr. Susan Sherrick",
+          "position": "Orthodontist",
+          "bio": "Orthodontist serving Jonesboro and Paragould areas, focused on tailored care and strong patient relationships.",
+          "image": {
+            "src": "https://westrockortho.com/static/1f8d1051e882e6ccbe3274098d97533b/e4240/1280x1920-1.png",
+            "webp": "",
+            "alt": "Dr. Susan Sherrick",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Dr. Brittany Curry",
+          "position": "Orthodontist",
+          "bio": "Orthodontist in Hot Springs, focused on comfortable care for children, teens, and adults.",
+          "image": {
+            "src": "https://westrockortho.com/static/e6609b591eab400230ca0bb9be2461b0/05000/1154x1732-1.png",
+            "webp": "",
+            "alt": "Dr. Brittany Curry",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Dr. Nathan McGuire",
+          "position": "Orthodontist",
+          "bio": "Orthodontist serving Rock Hill and Jackson locations, providing braces and Invisalign<sup>®</sup> treatments.",
+          "image": {
+            "src": "https://westrockortho.com/static/c7894d42a6d4c75f46dd37e77a871e1f/05000/1154x1732-2-1.png",
+            "webp": "",
+            "alt": "Dr. Nathan McGuire",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-the-team",
         "component_padding": "full",
         "component_margins": "none",
         "hide_component": false
@@ -1095,20 +2766,20 @@
       "has_bio": true,
       "large_title": false,
       "center_title": false,
-      "background": "bg1",
+      "background": "bg2",
       "add_texture": false,
       "linear_gradient": "",
       "preserve_image": true
     },
     {
       "acf_fc_layout": "single_image_slider",
-      "title": "Office Tour",
+      "title": "Our Office",
       "carousel_aria": "Office Tour Carousel",
       "slides": [
         {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-180(1).jpg",
-          "webp": "",
-          "alt": "Clarence office - waiting area",
+          "src": "https://westrockortho.com/static/24f4f91c870af2f891ddda7423f932ab/bcae7/rdb_hero_fade1.png",
+          "webp": "https://westrockortho.com/static/24f4f91c870af2f891ddda7423f932ab/104f8/rdb_hero_fade1.png",
+          "alt": "Office exterior and branding image",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1118,9 +2789,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-183(1).jpg",
+          "src": "https://westrockortho.com/static/e94d38322c602fd3d171fbfa0c515c45/104f8/rdb_hero_fade2.png",
           "webp": "",
-          "alt": "Clarence office - treatment room",
+          "alt": "Office interior image",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1130,9 +2801,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-186(1).jpg",
+          "src": "https://westrockortho.com/static/dd4b11bc3349dfd9ce74e92a17f955bb/547f4/darla-westrock-smiles.jpg",
           "webp": "",
-          "alt": "Clarence office - operatory",
+          "alt": "Patient smiling in the office",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1142,117 +2813,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-177(1).jpg",
+          "src": "https://westrockortho.com/static/2ca19508d99c7e3bd2fd9e415d4315df/a5357/westrock-ortho-patient.jpg",
           "webp": "",
-          "alt": "Clarence office - reception",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-167(1).jpg",
-          "webp": "",
-          "alt": "Clarence office - patient area",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-174(1).jpg",
-          "webp": "",
-          "alt": "Clarence office - equipment and sterilization area",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-370(1).jpg",
-          "webp": "",
-          "alt": "Tonawanda office - waiting area",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-374.jpg",
-          "webp": "",
-          "alt": "Tonawanda office - operatory",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-377(1).jpg",
-          "webp": "",
-          "alt": "Tonawanda office - treatment room",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-093(1).jpg",
-          "webp": "",
-          "alt": "Tonawanda office - staff area",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-090.jpg",
-          "webp": "",
-          "alt": "Tonawanda office - clinical space",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-115.jpg",
-          "webp": "",
-          "alt": "Tonawanda office - waiting and play area",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "#eef6f8"
-        },
-        {
-          "src": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/images/JessTrankleImages-085(1).jpg",
-          "webp": "",
-          "alt": "Tonawanda office - reception and staff",
+          "alt": "Patient receiving care in treatment room",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1275,25 +2838,80 @@
       "preserve_image": true
     },
     {
+      "seo": {
+        "page_title": "About Us | Westrock Orthodontics",
+        "page_description": "Learn about Westrock Orthodontics' team, mission, and commitment to personalized orthodontic care across our regional offices.",
+        "page_keywords": "Westrock Orthodontics, orthodontist, braces, Invisalign, team, office tour",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "About Us | Westrock Orthodontics",
+            "description": "Learn about Westrock Orthodontics' team, mission, and commitment to personalized orthodontic care across our regional offices.",
+            "image": "https://westrockortho.com/static/461ba3f534a7afeec62428a75e8998f9/62ab4/patient-westrock-showing-smile.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "Get Started": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Get Started",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "primary"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/347651414_Modern_family_visiting_doctor_in_hospital.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/347651414_Modern_family_visiting_doctor_in_hospital.webp",
+        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": false
+    },
+    {
       "acf_fc_layout": "image_text",
-      "title": "Community Involvement",
+      "title": "First Visit",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Edwin Tyska is active in the local community as an assistant coach for the Lou Gehrig Lasers travel girls’ softball league and supports youth sports through local involvement."
+          "text": "Your first visit begins with a free, no‑obligation consultation. You’ll meet our team, receive a complete oral exam and X‑rays when needed, and we’ll explain which treatment options best match your goals, including Invisalign<sup>®</sup>, clear braces, metal braces, or a same‑day start."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Kristen Alexander participates in local activities and professional organizations; both doctors support community health through patient education and outreach."
+          "text": "We know your time is valuable. Call us for a free consult or book your first visit online. If you choose to begin treatment that day, same‑day braces are available so you can get started without delay."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265652617_People_Donating_Food_To_Charity_Food_Bank_Collecti.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265652617_People_Donating_Food_To_Charity_Food_Bank_Collecti.webp",
-        "alt": "Graphic representing community support and local involvement",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
+        "alt": "Father with daughter at reception of dentist's surgery",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1324,182 +2942,19 @@
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "multi_use_banner",
-      "title": "Ready to get started?",
-      "content_block": "text_block",
-      "text": "",
-      "social_links": [],
-      "email": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "",
-        "color": ""
-      },
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "background_type": "has_background",
-      "background": "bg2",
-      "add_texture": false,
-      "linear_gradient": "",
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.webp",
-        "alt": "Enjoying time together",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
-      },
-      "reversed": false,
-      "centered": true,
-      "large_title": true,
-      "text_color": "primary"
-    },
-    {
-      "seo": {
-        "page_title": "About Us | Tyska & Alexander Orthodontics",
-        "page_description": "Learn about Dr. Edwin Tyska and Dr. Kristen Alexander, our team, and how we serve Clarence and Tonawanda with patient-focused orthodontic care.",
-        "page_keywords": "Orthodontics, Braces, Invisalign, Dr. Tyska, Dr. Alexander, TaOrtho",
-        "additional_settings": false,
-        "social_meta": {
-          "og_meta": {
-            "title": "About Us | Tyska & Alexander Orthodontics",
-            "description": "Meet our doctors and team serving Clarence and Tonawanda with modern, compassionate orthodontic care.",
-            "image": "https://www.taortho.com/assets/images/slideshow/slide1.jpg"
-          }
-        }
-      }
-    }
-  ],
-  "Get Started": [
-    {
-      "acf_fc_layout": "hero",
-      "title": "Get Started",
-      "text": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "pencil",
-        "color": "black"
-      },
-      "media_type": "image",
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/145673624_Happy_family_with_kids.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/145673624_Happy_family_with_kids.webp",
-        "alt": "Smiling family welcomed at Tyska Alexander Orthodontics front desk",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
-      },
-      "video": {
-        "src": "",
-        "webm": "",
-        "title": ""
-      },
-      "small": false
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "First Visit Expectations",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Your initial consultation is where we learn about your concerns and evaluate your smile. You’ll meet our team and the doctor, we’ll review your dental and medical history, and perform a thorough oral exam to determine whether orthodontic treatment is recommended and which options may be right for you."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We’ll help you build a customized treatment plan and walk through financial options, insurance details, and payment plans. Please bring completed patient forms or plan to fill them out electronically, a photo ID, any insurance cards, and a list of current medications."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211787210_young_woman_dentist_performs_examination_of_patien.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211787210_young_woman_dentist_performs_examination_of_patien.webp",
-        "alt": "Father with daughter at reception of dentist's surgery",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Initial Visit"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg2",
-      "linear_gradient": "",
-      "add_texture": false,
       "large_title": true,
       "title_color": "text",
       "title_underline_color": "none"
     },
     {
       "acf_fc_layout": "block_text_simple",
-      "title": "Payment & Financial Info",
+      "title": "Financing & Insurance",
       "paragraphs": [
         {
-          "text": "We accept most major credit cards and can assist with insurance claims when orthodontic benefits apply, helping to reduce paperwork for you."
+          "text": "We’ve Got You. We accept most major insurance plans, including Delta Dental, Blue Cross Blue Shield, Medicaid, UnitedHealthcare, and more. We also accept CareCredit to help make treatment affordable."
         },
         {
-          "text": "Flexible financing and in-house payment plans are available to fit different budgets. Complimentary consultations are offered so you can meet our team, have photos taken, and review your treatment plan."
+          "text": "Our treatment coordinator will review your benefits, file claims electronically when possible, and help you choose a payment plan that fits your budget."
         }
       ],
       "component_options": {
@@ -1522,7 +2977,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Complete forms online through our patient portal, or download and print the appropriate health history PDFs before your visit. If you have trouble opening PDFs, Adobe Reader is available for free."
+          "text": "To save time at your appointment, please complete our new patient forms before you arrive. If you prefer, bring printed copies with you and we’ll collect them when you check in."
         }
       ],
       "accordion": [],
@@ -1537,61 +2992,13 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Initial Visit"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
         "src": ""
       },
-      "buttons": [
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Online Patient Portal",
-            "aria_label": "online patient portal",
-            "href": "https://patient.sesamecommunications.com/mandtortho/index.html",
-            "path": "",
-            "hash": "",
-            "external": true,
-            "include_icon": false,
-            "icon": "envelope",
-            "color": "black"
-          }
-        },
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Patient Form (Child) PDF",
-            "aria_label": "patient form child pdf",
-            "href": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/files/health%20history(2).pdf",
-            "path": "",
-            "hash": "",
-            "external": true,
-            "include_icon": false,
-            "icon": "pencil",
-            "color": "black"
-          }
-        },
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Patient Form (Adult) PDF",
-            "aria_label": "patient form adult pdf",
-            "href": "https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/files/health%20history(3).pdf",
-            "path": "",
-            "hash": "",
-            "external": true,
-            "include_icon": false,
-            "icon": "pencil",
-            "color": "black"
-          }
-        }
-      ],
+      "buttons": [],
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -1599,13 +3006,13 @@
         "hide_component": false
       },
       "reverse": true,
-      "has_buttons": true,
+      "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
       "has_background": false,
-      "background": "bg2",
+      "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
       "large_title": false,
@@ -1623,7 +3030,7 @@
         "type": "nuxt",
         "style": "primary",
         "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "aria_label": "schedule consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1643,19 +3050,17 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
-        "alt": "Enjoying time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.webp",
+        "alt": "Enjoying Time Together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
+        "image_selection_hints": null
       },
       "reversed": false,
       "centered": true,
@@ -1664,15 +3069,15 @@
     },
     {
       "seo": {
-        "page_title": "Get Started | TA Orthodontics",
-        "page_description": "Start your orthodontic journey: learn what to expect at your first visit, access patient forms, review payment options, and book a free consultation.",
-        "page_keywords": "orthodontics, new patient, patient forms, financing, consultation, TA Orthodontics",
+        "page_title": "Get Started | Westrock Orthodontics",
+        "page_description": "Book your free consultation at Westrock Orthodontics. Learn what to expect at your first visit, find new patient forms, and explore financing options.",
+        "page_keywords": "orthodontics, first visit, free consultation, Westrock Orthodontics, Invisalign",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Get Started | TA Orthodontics",
-            "description": "Start your orthodontic journey: learn what to expect at your first visit, access patient forms, review payment options, and book a free consultation.",
-            "image": "https://d2jdm9a19iwpm4.cloudfront.net/get-started/get-started-hero-v2.jpg"
+            "title": "Get Started | Westrock Orthodontics",
+            "description": "Book your free consultation at Westrock Orthodontics. Learn what to expect at your first visit, find new patient forms, and explore financing options.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg"
           }
         }
       }
@@ -1693,14 +3098,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.webp",
-        "alt": "Orthodontic treatment overview with smiling patients in a bright clinic",
+        "alt": "Smiling family at Westrock Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1721,68 +3126,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Early/interceptive treatment for children",
+      "title": "Treatment Options",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Early treatment, often called Phase One, typically begins around age eight to nine with follow-up Phase Two around age 11 and up. The goal is to guide jaw growth, correct bite issues early, and make room for permanent teeth so later treatment can be simpler and shorter."
+          "text": "We understand everyone is different. Our team builds a personalized plan that fits your goals and lifestyle, whether you need early care for a child or discreet options for an adult."
         }
       ],
-      "accordion": [
-        {
-          "header": "When to start",
-          "paragraphs": [
-            {
-              "text": "The American Association of Orthodontists recommends an evaluation by age seven. We look for signs that early care could help, including crowding, crossbites, or a pronounced underbite."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.webp",
-            "alt": "Young patient receiving early orthodontic treatment",
-            "image_selection_hints": {
-              "context_category": "Kid"
-            }
-          }
-        },
-        {
-          "header": "What it corrects",
-          "paragraphs": [
-            {
-              "text": "Early care can guide jaw growth, address crossbites, severe crowding, protruding teeth and space issues, and reduce problems caused by prolonged thumb sucking."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/491614289_Model_of_jaw_with_braces_on_blue_background.webp",
-            "alt": "Orthodontist consulting with a child and parent about early treatment",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          }
-        },
-        {
-          "header": "Benefits",
-          "paragraphs": [
-            {
-              "text": "Starting early can reduce the need for extractions or jaw surgery later, create space for permanent teeth, shorten future treatment time, and improve function like chewing and speech sooner."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.webp",
-            "alt": "Smiling child after early orthodontic treatment",
-            "image_selection_hints": {
-              "context_category": "Kid friendly"
-            }
-          }
-        }
-      ],
+      "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.webp",
-        "alt": "Child receiving orthodontic evaluation in a modern clinic",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/22144613_Hispanic_Family.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/22144613_Hispanic_Family.webp",
+        "alt": "Patient smiling after orthodontic treatment",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1791,7 +3147,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Initial Visit"
+          "context_category": "All Ages"
         }
       },
       "video": {
@@ -1800,14 +3156,14 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "early-interceptive-treatment",
+        "hash": "treatment-options",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
       "reverse": false,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -1821,130 +3177,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Adult orthodontic options — It’s never too late",
+      "title": "Invisalign<sup>®</sup> Treatment",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Many adults are excellent candidates for orthodontic care. Modern techniques offer discreet options that fit adult lifestyles while improving function, hygiene, and smile appearance."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "Discreet options",
-          "paragraphs": [
-            {
-              "text": "We offer clear aligners like Invisalign<sup>®</sup>, ceramic (clear) braces, and lower-profile metal braces with smaller brackets. For minor tooth movement, retainers can sometimes correct small concerns."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
-            "alt": "Adult patient smiling after orthodontic treatment",
-            "image_selection_hints": {
-              "context_category": "Adult"
-            }
-          }
+          "text": "Using a clear, customized series of aligners, Invisalign<sup>®</sup> gradually moves teeth into the position you desire with predictable, removable treatment."
         },
         {
-          "header": "Expectations and coordination",
-          "paragraphs": [
-            {
-              "text": "Adult treatment times vary and may require coordination with periodontal care, restorative work, or, rarely, surgery. We plan treatments to minimize disruption and protect oral health."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/606463645_Dentist_mirror_and_woman_check_smile_after_teeth_c.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/606463645_Dentist_mirror_and_woman_check_smile_after_teeth_c.webp",
-            "alt": "Orthodontist reviewing adult treatment options with patient",
-            "image_selection_hints": {
-              "context_category": "Adult"
-            }
-          }
+          "has_heading": false,
+          "heading": "",
+          "text": "Aligners make brushing, flossing, and eating easier than bracketed options while still delivering precise tooth movement."
         }
       ],
+      "accordion": [],
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.webp",
-        "alt": "Adult patient consulting about orthodontic options",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Adult"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "adult-orthodontic-options",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": true,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Traditional (metal) and ceramic braces",
-      "paragraphs": [],
-      "accordion": [
-        {
-          "header": "Traditional Metal Braces",
-          "paragraphs": [
-            {
-              "text": "Metal brackets bonded to the teeth use archwires to apply gentle, continuous force and move teeth into place. They are durable and effective for a wide range of problems."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.webp",
-            "alt": "Patient with traditional metal braces",
-            "image_selection_hints": {
-              "context_category": "Teen"
-            }
-          }
-        },
-        {
-          "header": "Ceramic Braces",
-          "paragraphs": [
-            {
-              "text": "Ceramic brackets blend with tooth color for a less noticeable option while providing effective tooth movement. They may require extra attention to hygiene and care."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
-            "alt": "Close-up of ceramic braces on teeth",
-            "image_selection_hints": {
-              "context_category": "Teen"
-            }
-          }
-        }
-      ],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.webp",
-        "alt": "Two smiling teens showing braces",
+        "alt": "Invisalign treatment mockup on phone screen",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1954,62 +3204,6 @@
         "loading_mask": "",
         "image_selection_hints": {
           "context_category": "Treatments Hero"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "braces",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": true,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": true,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Invisalign<sup>®</sup> clear aligners",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Invisalign<sup>®</sup> uses advanced 3D imaging and a series of custom clear aligners to move teeth incrementally. Aligners are removable for eating and hygiene, and treatment is planned and previewed digitally."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Candidates include people with crowding, spacing, and many bite issues. Appointments are often less frequent and the aligners use SmartTrack material and SmartForce features to maintain precise control of movement."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/251234585_Portrait_of_beautiful_Asian_patient_woman_holding.webp",
-        "alt": "Close-up of clear Invisalign aligner on teeth",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Teen"
         }
       },
       "video": {
@@ -2039,24 +3233,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Surgical orthodontics (jaw surgery)",
+      "title": "Clear Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Orthognathic surgery may be recommended for significant jaw discrepancies where tooth movement alone cannot achieve a stable, functional bite. Adults with skeletal malocclusions sometimes need combined surgical and orthodontic care."
+          "text": "Clear ceramic braces blend with your tooth color for a less noticeable option without sacrificing effectiveness."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "The process includes comprehensive evaluation and imaging, pre-surgical orthodontics to align the teeth, coordinated surgery with an oral and maxillofacial surgeon, and post-surgical orthodontics to finalize the bite."
+          "text": "They provide reliable tooth movement for teens and adults who want an aesthetic alternative to metal."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/393180333_Dental_3d_scanner_monitor_in_the_dentists_office_S.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/393180333_Dental_3d_scanner_monitor_in_the_dentists_office_S.webp",
-        "alt": "Orthodontic team reviewing surgical planning images",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
+        "alt": "Smiling patient showing clear braces",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2065,7 +3259,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Surgery"
+          "context_category": "Teen"
         }
       },
       "video": {
@@ -2074,68 +3268,12 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "orthognathic-surgery",
+        "hash": "clear-braces",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
       "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": true,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Retainers and maintaining results",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "After active treatment, retainers preserve alignment. We provide removable Essix-style retainers, traditional acrylic-and-wire retainers, and fixed bonded retainers depending on your needs."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Wear schedules vary by case: often full-time initially, then nightly. Good oral hygiene, regular dental cleanings, and following retainer instructions are essential to protect your investment."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/62056177_Hand_holding_a_translucent_upper_essix_retainer.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/62056177_Hand_holding_a_translucent_upper_essix_retainer.webp",
-        "alt": "Patient holding a clear retainer",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Restorative Treatments"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "retainers",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
@@ -2151,68 +3289,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Advanced technology — 3D scanning and imaging",
+      "title": "Metal Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use digital tools like iTero scanners, 3D treatment planning, and digital X-rays to improve precision and comfort. Digital scans replace messy impressions and help visualize your treatment outcome."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "iTero digital scanning",
-          "paragraphs": [
-            {
-              "text": "Fast, radiation-free scans capture accurate 3D images for aligners and treatment planning."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/175504582_Dental_3d_scanner_and_monitor_in_the_dentists_offi.webp",
-            "alt": "Digital intraoral scanner in use",
-            "image_selection_hints": {
-              "context_category": "Technology"
-            }
-          }
+          "text": "Traditional metal braces remain a durable, cost-effective choice for patients of all ages, offering precise control of tooth movement."
         },
         {
-          "header": "3D treatment planning",
-          "paragraphs": [
-            {
-              "text": "Advanced software simulates each stage of tooth movement so you can preview results before treatment begins."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/167612220_Young_woman_patient_standing_in_x-ray_machine.webp",
-            "alt": "3D orthodontic treatment planning on a computer screen",
-            "image_selection_hints": {
-              "context_category": "Better Care"
-            }
-          }
-        },
-        {
-          "header": "Digital X-rays",
-          "paragraphs": [
-            {
-              "text": "High-resolution digital radiography and 3D imaging support accurate diagnosis while minimizing radiation exposure."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1120060139_A_3D_dental_model_displayed_on_a_computer_screen_h.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1120060139_A_3D_dental_model_displayed_on_a_computer_screen_h.webp",
-            "alt": "Digital X-ray equipment used in orthodontic diagnosis",
-            "image_selection_hints": {
-              "context_category": "Technology"
-            }
-          }
+          "has_heading": false,
+          "heading": "",
+          "text": "Our team customizes treatment to balance efficiency, comfort, and the results you expect."
         }
       ],
+      "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/241877737_Dentist_with_young_woman_assistant_working_with_co.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/241877737_Dentist_with_young_woman_assistant_working_with_co.webp",
-        "alt": "Modern orthodontic technology and equipment in a treatment room",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
+        "alt": "Patient smiling with metal braces",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2221,7 +3315,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Advanced Technology"
+          "context_category": "Braces"
         }
       },
       "video": {
@@ -2230,14 +3324,235 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "advanced-technology",
+        "hash": "braces",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Same Day Braces",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We know your time is valuable. With same day braces you can begin treatment at your consultation and start progressing toward your new smile immediately."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.webp",
+        "alt": "Patient showing new smile after braces",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Treatments Hero"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "same-day-braces",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
       "reverse": false,
       "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "iTero 3D Imaging",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Goodbye to messy impressions. Our iTero Element scanner captures a fast, radiation-free 3D image to improve comfort and treatment accuracy."
+        }
+      ],
+      "accordion": [
+        {
+          "header": "Fast Scans",
+          "paragraphs": [
+            {
+              "text": "Scans take about a minute and feed into digital treatment planning for more predictable results."
+            }
+          ],
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.webp",
+            "alt": "iTero digital scanner in use",
+            "image_selection_hints": {
+              "context_category": "Technology"
+            }
+          }
+        }
+      ],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/277600288_Team_of_medical_workers_in_hospital_Unity_concept.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/277600288_Team_of_medical_workers_in_hospital_Unity_concept.webp",
+        "alt": "iTero digital scanner in treatment room",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Technology"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "technology",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
       "has_accordion": true,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Ortho for All Ages",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We offer a full range of orthodontic care for children, teens, and adults so everyone can get the smile they deserve."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/35514118_Smiling_family.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/35514118_Smiling_family.webp",
+        "alt": "Family smiling together after orthodontic care",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "All Ages"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "all-ages",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Easy Payment Plans",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We know paying for treatment can feel overwhelming. We accept many insurances and offer in-house financing plus CareCredit to help make treatment affordable."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/416851939_Health_care_cost_Doctor_in_surgical_gloves_holding.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/416851939_Health_care_cost_Doctor_in_surgical_gloves_holding.webp",
+        "alt": "Patient showing smile and discussing payment options",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Flexible Payments"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "easy-payment-plans",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -2260,7 +3575,7 @@
         "type": "nuxt",
         "style": "primary",
         "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "aria_label": "schedule consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -2280,19 +3595,17 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/316558318_young_beautiful_lady_with_blond_short_hair_sit_in.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/316558318_young_beautiful_lady_with_blond_short_hair_sit_in.webp",
-        "alt": "Enjoying time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/256192470_Close_up_photo_wondered_she_her_he_him_his_lady_gu.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/256192470_Close_up_photo_wondered_she_her_he_him_his_lady_gu.webp",
+        "alt": "Enjoying Time Together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
+        "image_selection_hints": null
       },
       "reversed": false,
       "centered": true,
@@ -2301,15 +3614,15 @@
     },
     {
       "seo": {
-        "page_title": "Treatments | TA Orthodontics",
-        "page_description": "Explore orthodontic treatments for all ages: early care, braces, Invisalign®, surgical planning, retainers and advanced digital technology.",
-        "page_keywords": "orthodontics, braces, Invisalign, early treatment, retainers, orthognathic surgery, iTero, clear aligners",
+        "page_title": "Treatments | Westrock Orthodontics",
+        "page_description": "Explore Westrock Orthodontics' treatments for children, teens, and adults, including Invisalign®, clear and metal braces, same-day starts, and iTero 3D imaging.",
+        "page_keywords": "Invisalign, clear braces, metal braces, same day braces, orthodontics, iTero, payment plans",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Treatments | TA Orthodontics",
-            "description": "Explore orthodontic treatments for all ages: early care, braces, Invisalign®, surgical planning, retainers and advanced digital technology.",
-            "image": "https://www.taortho.com/assets/images/treatment-01.jpg"
+            "title": "Treatments | Westrock Orthodontics",
+            "description": "Explore Westrock Orthodontics' treatments for children, teens, and adults, including Invisalign®, clear and metal braces, same-day starts, and iTero 3D imaging.",
+            "image": "https://westrockortho.com/static/a97bf2239990c92bf38ed497ea7288fe/37e03/westrock_home-hero-scaled.jpg"
           }
         }
       }
@@ -2330,14 +3643,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
-        "alt": "Tyska Alexander Orthodontics Clarence office exterior and reception area",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/416216135_Medical_assistant_speaking_at_phone_with_patient_a.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/416216135_Medical_assistant_speaking_at_phone_with_patient_a.webp",
+        "alt": "Westrock Orthodontics reception desk with appointment book and phone",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2345,9 +3658,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Contact Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -2358,7 +3669,7 @@
     },
     {
       "acf_fc_layout": "map",
-      "title": "Our Location",
+      "title": "How to Reach Us",
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -2384,15 +3695,15 @@
     },
     {
       "seo": {
-        "page_title": "Contact Tyska Alexander Orthodontics | Clarence & Tonawanda Orthodontist",
-        "page_description": "Contact Tyska Alexander Orthodontics in Clarence and Tonawanda. Call (716) 759-8323, email info@taortho.com, or request an appointment online.",
-        "page_keywords": "Tyska Alexander Orthodontics contact, Clarence orthodontist, Tonawanda orthodontist, appointment, patient forms",
+        "page_title": "Contact Westrock Orthodontics | Arkansas Orthodontist",
+        "page_description": "Contact Westrock Orthodontics to schedule an appointment at any of our Arkansas offices. Call, book online, or get directions to your nearest location.",
+        "page_keywords": "Westrock Orthodontics contact, Arkansas orthodontist, orthodontic appointment, Westrock locations",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Contact Tyska Alexander Orthodontics | Clarence & Tonawanda Orthodontist",
-            "description": "Contact Tyska Alexander Orthodontics in Clarence and Tonawanda. Call (716) 759-8323, email info@taortho.com, or request an appointment online.",
-            "image": "https://www.taortho.com/assets/uploads/images/clarence-office.jpg"
+            "title": "Contact Westrock Orthodontics | Arkansas Orthodontist",
+            "description": "Contact Westrock Orthodontics to schedule an appointment at any of our Arkansas offices. Call, book online, or get directions to your nearest location.",
+            "image": "https://d2jdm9a19iwpm4.cloudfront.net/contact/contact-hero.jpg"
           }
         }
       }
@@ -2413,14 +3724,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/479238532_Man_Dental_Teeth_Question_Mark.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/479238532_Man_Dental_Teeth_Question_Mark.webp",
-        "alt": "Patient speaking with front desk about appointments in a bright orthodontic office",
+        "alt": "Patient smiling with orthodontic braces in a bright, welcoming clinic",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2440,344 +3751,6 @@
       "small": true
     },
     {
-      "acf_fc_layout": "accordion",
-      "title": "FAQ",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Find answers to common questions about orthodontic treatments, Invisalign<sup>®</sup>, appointment scheduling, patient forms, and payment options at Tyska Alexander Orthodontics."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "What treatment options do you offer?",
-          "paragraphs": [
-            {
-              "text": "We offer a full range of orthodontic options including traditional metal braces, ceramic (clear) braces, Invisalign<sup>®</sup> clear aligners, retainers for minor movement, palatal expanders and other appliances. Your doctor will review options and recommend the best approach for your needs."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646554_Womans_smile_with_clear_dental_braces_on_teeth.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646554_Womans_smile_with_clear_dental_braces_on_teeth.webp",
-            "alt": "Orthodontic consultation and treatment planning in a modern office",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How does Invisalign work and how long does it take?",
-          "paragraphs": [
-            {
-              "text": "Invisalign<sup>®</sup> uses a series of clear, removable aligner trays made from SmartTrack material. A custom digital plan maps tooth movement; aligners are usually worn about 20–22 hours per day and checkups are typically every six weeks. Treatment length varies by case."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/343321244_Young_beautiful_brunette_woman_holding_dental_alig.webp",
-            "alt": "Clear aligners on a model showing staged tooth movement",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How long will orthodontic treatment take?",
-          "paragraphs": [
-            {
-              "text": "Treatment times vary by age, method and case severity. Typical ranges are about 1–3 years; early (interceptive) treatment for children can shorten overall time. Your doctor will estimate your treatment length during the consultation."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/305918963_Smiling_happy_woman_mouth_with_tongue_and_braces_O.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/305918963_Smiling_happy_woman_mouth_with_tongue_and_braces_O.webp",
-            "alt": "Orthodontic treatment timeline explanation during a consultation",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "Do you offer surgical orthodontics if needed?",
-          "paragraphs": [
-            {
-              "text": "For adults with severe jaw discrepancies we coordinate orthognathic (jaw) surgery with an oral/maxillofacial surgeon. Braces are used before and after surgery to finalize the bite; we will discuss risks, recovery time and expected steps if surgery is recommended."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/appointment-request.jpg",
-            "webp": "",
-            "alt": "Orthodontist reviewing surgical treatment coordination with a patient",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "All Ages"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What do I need to know about visiting the dentist while in orthodontic care?",
-          "paragraphs": [
-            {
-              "text": "Continue visiting your family dentist every six months for cleanings and routine care while in orthodontic treatment. If extra dental work is needed, our offices will coordinate timing and care with your family dentist."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/974226401_Clinic_patient_hands_writing_medical_documents_in.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/974226401_Clinic_patient_hands_writing_medical_documents_in.webp",
-            "alt": "Orthodontic team coordinating care with a family dentist",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Experienced"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How often will I have appointments during treatment?",
-          "paragraphs": [
-            {
-              "text": "Routine orthodontic follow-ups are usually scheduled about every 4–8 weeks, depending on the appliance and stage of treatment."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://www.taortho.com/assets/uploads/images/appointment-request.jpg",
-            "webp": "",
-            "alt": "Patient returning for a routine orthodontic adjustment",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What are the basic care instructions (brushing, flossing, appliance care)?",
-          "paragraphs": [
-            {
-              "text": "Brush and floss carefully after meals. For braces use floss threaders or orthodontic floss; consider a water flosser if needed. For loose wires or irritation use orthodontic wax or rinse with warm salt water and contact the office for advice. For aligners, wear them 20–22 hours/day and remove only for eating and oral hygiene."
-            }
-          ],
-          "has_media": true,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/232435916_Electronic_medical_record_with_patient_data_and_he.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/232435916_Electronic_medical_record_with_patient_data_and_he.webp",
-            "alt": "Brushing and flossing with braces",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Gentle"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What happens after my initial consultation?",
-          "paragraphs": [
-            {
-              "text": "After your consultation we’ll schedule your first appliance placement visit. The placement appointment typically takes about an hour. The doctor and team will be available to ensure your comfort."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/486483782_Close_up_of_dentist_hand_using_dental_forceps_whil.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/486483782_Close_up_of_dentist_hand_using_dental_forceps_whil.webp",
-            "alt": "Orthodontic team preparing a patient for appliance placement",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What payment and insurance options do you accept?",
-          "paragraphs": [
-            {
-              "text": "Treatment cost depends on your individualized plan. The practice accepts most major credit cards and many insurance plans, and offers in‑house financing and low monthly payment plans. Office staff will help with insurance claims and paperwork."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/624176181_Choose_the_right_insurance_Learn_more_about_insura.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/624176181_Choose_the_right_insurance_Learn_more_about_insura.webp",
-            "alt": "Front desk staff helping a patient with insurance and payment options",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Flexible Payments"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How can I schedule an appointment?",
-          "paragraphs": [
-            {
-              "text": "You can call either office or request an appointment online. Phone (Clarence office): (716) 759-8323. Phone (Tonawanda office): (716) 875-0405. Appointment request (online form): https://www.taortho.com/appointment-request."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/459389900_Young_smiling_happy_couple_two_friends_family_man.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/459389900_Young_smiling_happy_couple_two_friends_family_man.webp",
-            "alt": "Patient calling to schedule an orthodontic appointment",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Contact Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "Where can I fill out new‑patient forms?",
-          "paragraphs": [
-            {
-              "text": "Patients can fill forms electronically here: https://patient.sesamecommunications.com/mandtortho/index.html. Printable PDFs (child and adult health history) are also available:\nChild Patient Form (PDF): https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/files/health%20history(2).pdf\nAdult Patient Form (PDF): https://www.taortho.com/hub_sites/macdonald-andrew2/www/assets/uploads/files/health%20history(3).pdf"
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
-            "alt": "Patient completing new patient forms on a tablet",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        }
-      ],
-      "component_options": {
-        "hash": "",
-        "component_padding": "full",
-        "component_margins": "full",
-        "hide_component": false
-      }
-    },
-    {
       "acf_fc_layout": "multi_use_banner",
       "title": "Ready to get started?",
       "content_block": "text_block",
@@ -2788,7 +3761,7 @@
         "type": "nuxt",
         "style": "primary",
         "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "aria_label": "schedule consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -2808,19 +3781,17 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/347651414_Modern_family_visiting_doctor_in_hospital.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/347651414_Modern_family_visiting_doctor_in_hospital.webp",
-        "alt": "Enjoying time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
+        "alt": "Enjoying Time Together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "New Patients Hero"
-        }
+        "image_selection_hints": null
       },
       "reversed": false,
       "centered": true,
@@ -2829,15 +3800,15 @@
     },
     {
       "seo": {
-        "page_title": "FAQ | Tyska Alexander Orthodontics",
-        "page_description": "Answers to common questions about orthodontic treatments, scheduling, forms, and payment options at Tyska Alexander Orthodontics.",
-        "page_keywords": "orthodontics, braces, Invisalign, FAQ, Clarence, Tonawanda, patient forms",
+        "page_title": "FAQ | Our Office",
+        "page_description": "Find answers to common questions about orthodontic treatments, scheduling, insurance, and payments. Learn how to request an appointment or start care.",
+        "page_keywords": "orthodontics, braces, Invisalign, FAQ, appointments, insurance",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "FAQ | Tyska Alexander Orthodontics",
-            "description": "Answers to common questions about orthodontic treatments, scheduling, forms, and payment options at Tyska Alexander Orthodontics.",
-            "image": "https://www.taortho.com/assets/uploads/images/appointment-request.jpg"
+            "title": "FAQ | Our Office",
+            "description": "Find answers to common questions about orthodontic treatments, scheduling, insurance, and payments. Learn how to request an appointment or start care.",
+            "image": ""
           }
         }
       }
