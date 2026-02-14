@@ -1,77 +1,178 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Westrock Orthodontics",
+  "domain": "westrockortho.com",
+  "email": "info@westrockortho.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(844) 976-7846",
+    "href": "tel:+18449767846",
+    "aria": "8 4 4, 9 7 6, 7 8 4 6"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "Mountain Home",
       "address": {
-        "street": "9650 Main Street",
+        "street": "300 AR-5",
         "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "city_state": "Mountain Home, AR 72653",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-92.3879189",
+          "latitude": "36.3410279"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(870) 425-0330",
+        "href": "tel:+18704250330"
       },
-      "email": "info@mandtortho.com",
+      "email": "",
       "hours": [
         {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
-        },
-        {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
-        },
-        {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "day": "Mon",
+          "time": "7:30 AM - 5:00 PM"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
+        "href": "https://www.google.com/maps/search/?api=1&query=300+AR-5,+Mountain+Home,+AR+72653",
         "label": "Get Directions"
       },
       "special_note": ""
     },
     {
-      "title": "Tonawanda Office",
+      "title": "Blytheville",
       "address": {
-        "street": "1077 Delaware Rd",
+        "street": "3710 E Main St Suite J",
         "suite": "",
-        "city_state": "Tonawanda, NY 14223",
+        "city_state": "Blytheville, AR 72315",
         "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
+          "longitude": "-89.8702898",
+          "latitude": "35.9307593"
         }
       },
       "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
+        "number": "(870) 716-2407",
+        "href": "tel:+18707162407"
       },
-      "email": "info@mandtortho.com",
-      "hours": [],
+      "email": "",
+      "hours": [
+        {
+          "day": "Mon",
+          "time": "9:00 AM - 5:00 PM"
+        }
+      ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/search/?api=1&query=3710+E+Main+St+Suite+J,+Blytheville,+AR+72315",
+        "label": "Get Directions"
+      },
+      "special_note": ""
+    },
+    {
+      "title": "North Little Rock",
+      "address": {
+        "street": "4901 Warden Rd",
+        "suite": "",
+        "city_state": "North Little Rock, AR 72116",
+        "coordinates": {
+          "longitude": "-92.2198459",
+          "latitude": "34.7967642"
+        }
+      },
+      "phone": {
+        "number": "(501) 503-0768",
+        "href": "tel:+15015030768"
+      },
+      "email": "",
+      "hours": [
+        {
+          "day": "Mon",
+          "time": "9:00 AM - 5:00 PM"
+        }
+      ],
+      "directions_link": {
+        "href": "https://www.google.com/maps/search/?api=1&query=4901+Warden+Rd,+North+Little+Rock,+AR+72116",
+        "label": "Get Directions"
+      },
+      "special_note": ""
+    },
+    {
+      "title": "Siloam Springs",
+      "address": {
+        "street": "3105 US-412",
+        "suite": "",
+        "city_state": "Siloam Springs, AR 72761",
+        "coordinates": {
+          "longitude": "-94.5121552",
+          "latitude": "36.1814859"
+        }
+      },
+      "phone": {
+        "number": "(479) 431-2814",
+        "href": "tel:+14794312814"
+      },
+      "email": "",
+      "hours": [
+        {
+          "day": "Wed",
+          "time": "7:30 AM - 5:00 PM"
+        }
+      ],
+      "directions_link": {
+        "href": "https://www.google.com/maps/search/?api=1&query=3105+US-412,+Siloam+Springs,+AR+72761",
+        "label": "Get Directions"
+      },
+      "special_note": ""
+    },
+    {
+      "title": "West Memphis",
+      "address": {
+        "street": "126 W Bond Ave",
+        "suite": "",
+        "city_state": "West Memphis, AR 72301",
+        "coordinates": {
+          "longitude": "-90.1873234",
+          "latitude": "35.1478091"
+        }
+      },
+      "phone": {
+        "number": "(870) 484-4293",
+        "href": "tel:+18704844293"
+      },
+      "email": "",
+      "hours": [
+        {
+          "day": "Mon",
+          "time": "8:30 AM - 5:00 PM"
+        }
+      ],
+      "directions_link": {
+        "href": "https://www.google.com/maps/search/?api=1&query=126+W+Bond+Ave,+West+Memphis,+AR+72301",
+        "label": "Get Directions"
+      },
+      "special_note": ""
+    },
+    {
+      "title": "Little Rock (Chenal Pkwy)",
+      "address": {
+        "street": "16003 Chenal Pkwy",
+        "suite": "",
+        "city_state": "Little Rock, AR 72211",
+        "coordinates": {
+          "longitude": "-92.4462191",
+          "latitude": "34.756708"
+        }
+      },
+      "phone": {
+        "number": "(501) 270-8046",
+        "href": "tel:+15012708046"
+      },
+      "email": "",
+      "hours": [
+        {
+          "day": "Mon",
+          "time": "9:00 AM - 5:00 PM"
+        }
+      ],
+      "directions_link": {
+        "href": "https://www.google.com/maps/search/?api=1&query=16003+Chenal+Pkwy,+Little+Rock,+AR+72211",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -94,28 +195,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "facebook",
+        "text": "Westrock Orthodontics — Multiple locations",
+        "href": "https://westrockortho.com/locations/",
+        "label": "View our locations",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(844) 976-7846",
+        "href": "tel:+18449767846",
+        "label": "Call 8 4 4. 9 7 6. 7 8 4 6.",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "COVID-19 Notice",
+      "text": "We remain committed to patient and team safety. Click to read our latest updates and safety protocols.",
+      "mobile_text": "COVID-19 Update",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "COVID-19 Update",
+        "text": "<p>Westrock Orthodontics continues to follow CDC and local health guidance to keep you safe. Please call your local office if you have specific concerns before your visit.</p>"
       }
     }
   },
@@ -150,20 +251,24 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-        "icon": "youtube"
+        "href": "https://www.facebook.com/westrockorthodontics",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://www.instagram.com/westrockortho/",
+        "icon": "instagram"
       }
     ],
     "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Westrock Orthodontics",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://westrockortho.com/static/67c557ac2b369c1e031d36f6ee066d50/4f8a5/westrock_logo_color-11.png",
       "webp": "",
-      "alt": "",
+      "alt": "Westrock Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
